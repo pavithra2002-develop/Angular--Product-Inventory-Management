@@ -1,15 +1,15 @@
-<nav>
-    <a routerLink="/inventory">Products</a>
+<nav style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">
+    <a routerLink="/inventory" style="text-decoration: none; color: #333; font-size: 16px; margin-right: 15px;">Products</a>
     <br />
-    <a routerLink="/about">About</a>
+    <a routerLink="/about" style="text-decoration: none; color: #333; font-size: 16px; margin-right: 15px;">About</a>
     <br />
     <ng-container *ngIf="!isLoggedIn()">
-        <a routerLink="/auth/sign-in">Sign In</a>
+        <a routerLink="/auth/sign-in" style="text-decoration: none; color: #333; font-size: 16px; margin-right: 15px;">Sign In</a>
         <br />
-        <a routerLink="/auth/register">Register</a>
+        <a routerLink="/auth/register" style="text-decoration: none; color: #333; font-size: 16px; margin-right: 15px;">Register</a>
     </ng-container>
     <br />
     <ng-container *ngIf="isLoggedIn()">
-        <button (click)="logout()">Logout</button>
+        <button (click)="logout()" style="background-color: #ff4444; color: white; border: none; padding: 8px 16px; border-radius: 4px; cursor: pointer;">Logout</button>
     </ng-container>
 </nav>

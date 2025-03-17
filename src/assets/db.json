@@ -1,67 +1,96 @@
 {
   "users": [
     {
-      "id": 1,
-      "email": "john.doe@example.com",
-      "password": "password123",
-      "firstName": "John",
-      "lastName": "Doe",
-      "location": "New York",
-      "mobileNumber": "1234567890"
-    },
-    {
-      "id": 2,
-      "email": "jane.smith@example.com",
-      "password": "password456",
-      "firstName": "Jane",
-      "lastName": "Smith",
-      "location": "Los Angeles",
-      "mobileNumber": "0987654321"
-    },
-    {
       "email": "john.deo@example.com",
-      "password": "password123",
-      "firstName": "John",
+      "password": "123456789",
+      "firstName": "john",
       "lastName": "Doe",
       "location": "New York",
-      "mobileNumber": "1234567890",
-      "id": 3
+      "mobileNumber": "0987654321",
+      "id": 2
     },
+    [
+      {
+        "email": "pavithra@example.com",
+        "password": "12345678",
+        "firstName": "pavithra",
+        "lastName": "jerripothula",
+        "location": "vijayawada",
+        "mobileNumber": "1234509876"
+      }
+    ],
     {
-      "email": "jane.smith@example.com",
-      "password": "password456",
-      "firstName": "Jane",
-      "lastName": "Smith",
+      "email": "tom@gmail.com",
+      "password": "0987654321",
+      "firstName": "Tom",
+      "lastName": "Jerry",
       "location": "Los Angles",
       "mobileNumber": "0987654321",
       "id": 4
+    },
+    {
+      "email": "pavithra@gmail.com",
+      "password": "12345678",
+      "firstName": "Pavithra",
+      "lastName": "Jerripothula",
+      "location": "Vijayawada",
+      "mobileNumber": "8688953958",
+      "id": 5
+    },
+    {
+      "email": "anand@gmail.com",
+      "password": "1234567",
+      "firstName": "Anand",
+      "lastName": "jerripothula",
+      "location": "hyderadad",
+      "mobileNumber": "1234567890",
+      "id": 6
+    },
+    {
+      "email": "pavithra@gmail.com",
+      "password": "12345678",
+      "firstName": "Pavithra",
+      "lastName": "Jerripothula",
+      "location": "Vijayawada",
+      "mobileNumber": "8688953958",
+      "id": 7
+    },
+    {
+      "email": "pavithra123@gmail.com",
+      "password": "12345678",
+      "firstName": "pavithra",
+      "lastName": "jerripothula",
+      "location": "Vijayawada",
+      "mobileNumber": "8688953958",
+      "id": 8
+    },
+    {
+      "email": "pavithra123@gmail.com",
+      "password": "12345678",
+      "firstName": "pavithra",
+      "lastName": "jerripothula",
+      "location": "Vijayawada",
+      "mobileNumber": "8688953958",
+      "id": 9
+    },
+    {
+      "email": "pavithra@gmail.com",
+      "password": "12345678",
+      "firstName": "pavithra",
+      "lastName": "jerripothula",
+      "location": "Vijayawada",
+      "mobileNumber": "8688953958",
+      "id": 10
     }
   ],
   "products": [
     {
-      "id": 101,
-      "name": "Laptop",
-      "description": "A powerful gaming laptop",
-      "manufacturer": "Tech Corp",
-      "price": 1200,
-      "quantity": 15
-    },
-    {
-      "id": 102,
-      "name": "Smartphone",
-      "description": "Latest smartphone with 5G",
-      "manufacturer": "Mobile Inc",
-      "manufacturingDate": "2024-02-15",
-      "price": 800,
-      "quantity": 25
-    },
-    {
-      "name": "Headphones",
-      "description": "Wireless HeadPhones ",
+      "name": "Iphone",
+      "description": "apple i phone",
       "manufacturer": "Sony",
-      "price": 4440,
-      "quantity": 8,
-      "id": 1741865949173
+      "price": 90000,
+      "quantity": 2,
+      "id": 1742209841712
     }
   ]
 }

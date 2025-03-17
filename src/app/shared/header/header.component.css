@@ -1,0 +1,36 @@
+/* nav.component.css */
+nav {
+    background-color: #333; /* Dark background for the navbar */
+    padding: 10px 20px; /* Padding for spacing */
+    display: flex; /* Use flexbox to align items horizontally */
+    align-items: center; /* Center items vertically */
+    gap: 20px; /* Space between items */
+}
+
+nav a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Font size */
+    padding: 5px 10px; /* Padding for clickable area */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+nav a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+nav button {
+    background-color: #ff4444; /* Red background for the logout button */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    padding: 8px 16px; /* Padding for the button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+nav button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+}

@@ -1,0 +1,92 @@
+/* product-list.component.css */
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li:hover {
+    background-color: #f1f1f1; /* Hover effect */
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.9; /* Hover effect */
+}
+
+button:focus {
+    outline: 2px solid #007bff; /* Focus state for accessibility */
+    outline-offset: 2px;
+}
+
+button[routerLink] {
+    background-color: #007bff; /* Blue for "Add Product" */
+    color: white;
+    margin-top: 20px;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button[routerLink]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* View Button */
+button:nth-child(1) {
+    background-color: #28a745; /* Green for "View" */
+    color: white;
+}
+
+button:nth-child(1):hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Edit Button */
+button:nth-child(2) {
+    background-color: #ffc107; /* Yellow for "Edit" */
+    color: black;
+}
+
+button:nth-child(2):hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+}
+
+/* Delete Button */
+button:nth-child(3) {
+    background-color: #dc3545; /* Red for "Delete" */
+    color: white;
+}
+
+button:nth-child(3):hover {
+    background-color: #c82333; /* Darker red on hover */
+}
